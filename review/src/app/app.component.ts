@@ -28,11 +28,5 @@ export class AppComponent {
     
   }
 
-  onSelectedId(selectedUserId: string) {
-    DUMMY_USERS.find(user => user.id === selectedUserId)! ;
-    console.log(selectedUserId)
-
-  }
-
 
 }
